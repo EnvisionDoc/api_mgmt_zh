@@ -3,7 +3,6 @@ EnOS API管理(API Management，APIM)将符合EnOS所支持标准的API通过代
 
 API管理通过代理，解耦了API的生产与消费。后台API的改动不影响前端的app通过代理继续访问该API,前端app不需要修改代码或配置。
 
-.. image:: media/api_management_workflow.png
 
 
 ## 相关角色
@@ -43,8 +42,6 @@ API管理主要服务于以下角色：
 
   为APIM提供身份管理、认证、授权、审计等服务。关于IAM的详细内容，请见[IAM](https://www.envisioniot.com/docs/iam/zh_CN/latest/iam_overview.html)
 
-## 后续操作
 
-快速入门APIM的使用方法，见[API管理快速入门](gettingstarted_api_management)
 
 

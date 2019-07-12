@@ -23,7 +23,7 @@
 
 3. 点击**保存**，完成API组的创建；
 
-   .. image:: media/creating_api_group.png
+
 
 ## 新建API
 

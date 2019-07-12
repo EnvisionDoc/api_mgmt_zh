@@ -12,8 +12,8 @@ EnOS™ API管理
    :maxdepth: 1
    :caption:  概念
 
-   api_management_concepts
-   api_management_workflow
+.. api_management_concepts
+.. api_management_workflow
 .. api_management_flow_control
 .. api_management_security
 
