@@ -44,7 +44,7 @@ EnOS将API分为以下几种类型：
   API 请求为非Form表单Body传参时，定义的传参模型，通常为JSON对象。
 
 ## 应用
-  消费API的基本单元，由 _API消费者_ 在[应用注册](https://www.envisioniot.com/docs/app-development/zh_CN/latest/app_dev_overview.html)中进行申请和管理。
+  消费API的基本单元，由 _API消费者_ 在[应用注册](/docs/app-development/zh_CN/latest/app_dev_overview.html)中进行申请和管理。
 
 ## 应用密钥
   应用的身份，与应用为一一对应关系。-->

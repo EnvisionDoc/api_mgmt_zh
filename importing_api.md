@@ -10,7 +10,6 @@
 ## 开始前准备
 
 - 拥有一个EnOS账号，并拥有定义API操作需要的相应权限，参考[策略，角色，与权限](/docs/iam/zh_CN/latest/access_policy)。
-- 了解API管理相关[概念](api_management_concepts)。
 - 已有符合规范的JSON文件。参考[导出API](exporting_api)。
 
 

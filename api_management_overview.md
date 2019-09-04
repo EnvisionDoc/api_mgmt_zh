@@ -35,11 +35,11 @@ API管理主要服务于以下角色：
 
 - 应用注册
 
-  API消费者注册应用获得服务账号所需服务，以用于访问必要API。关于应用注册的详细内容，请见[应用注册](https://www.envisioniot.com/docs/app-development/zh_CN/latest/app_dev_overview.html)
+  API消费者注册应用获得服务账号所需服务，以用于访问必要API。关于应用注册的详细内容，请见[应用注册](/docs/app-development/zh_CN/latest/app_dev_overview.html)
 
 - IAM
 
-  为APIM提供身份管理、认证、授权、审计等服务。关于IAM的详细内容，请见[IAM](https://www.envisioniot.com/docs/iam/zh_CN/latest/iam_overview.html)
+  为APIM提供身份管理、认证、授权、审计等服务。关于IAM的详细内容，请见[IAM](/docs/iam/zh_CN/latest/iam_overview.html)
 
 
 

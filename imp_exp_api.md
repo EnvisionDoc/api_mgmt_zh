@@ -44,7 +44,7 @@
 
 ### API后端服务 <backend>
 
-配置API后端服务，以ENOS API中[Get Device](http://www.envisioniot.com/docs/api/zh_CN/dev/connect/get_device.html)的API挂载为例，按照API文档配置参数。
+配置API后端服务，以ENOS API中[Get Device](/docs/api/zh_CN/dev/connect/get_device.html)的API挂载为例，按照API文档配置参数。
 
 .. image:: media/api_backend.png
 
@@ -63,7 +63,7 @@
    
    - 后端超时时间：指API请求到达API网关后，API网关调用API后端服务的响应时间，即由API网关请求后端服务开始直至API网关收到后端返回结果的时长。单位为毫秒。如果响应时间超过该值，API网关会放弃请求后端服务，并给用户返回相应的错误信息。
    
-   - 后端参数：即调用后端服务所需要的参数。以[Get Device](http://www.envisioniot.com/docs/api/zh_CN/dev/connect/get_device.html)为例，包含`orgId`和`assetId`。
+   - 后端参数：即调用后端服务所需要的参数。以[Get Device](/docs/api/zh_CN/dev/connect/get_device.html)为例，包含`orgId`和`assetId`。
       - 参数名
       - 参数位置：参数在请求中的位置，可选Head、Query和Path
       - 数据类型：字段的类型，支持String、Int、Long、Float、Double、Boolean、Binary、Date、DateTime、Password。

@@ -4,9 +4,6 @@
 
 本快速入门介绍如何创建、部署API，将API发布为公共API，以及如何使用已发布的公共API。
 
-## 开始前准备
-- 了解API管理相关[术语](api_management_concepts)；
-
 
 ## 生产API任务描述
 
@@ -102,4 +99,4 @@ API消费者需要将应用注册在EnOS的某个OU内，然后向API生产者�
 
 ## 步骤4：通过HTTP客户端消费API
 
-API消费者可以手动封装HTTP请求，参见[调用 EnOS REST API](https://www.envisioniot.com/docs/app-development/zh_CN/latest/call_enos_api)。
+API消费者可以手动封装HTTP请求，参见[调用 EnOS REST API](/docs/app-development/zh_CN/latest/call_enos_api)。
