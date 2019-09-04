@@ -11,7 +11,7 @@
 ## 生产API任务描述
 
 API的生产流程如下图所示：
-  
+
 .. image:: media/api_management_production.png
 
 基于该流程图，本示例有以下任务：
@@ -25,24 +25,26 @@ API的生产流程如下图所示：
 
 ## 步骤1：定义API
 为新建API文档，你需要：
-1. 登录EnOS控制台，选择 **API管理 > API文档**；
-   
-2. 点击 **新建**,根据情况选择**创建文档**或**导入文档**，本文以创建文档为例，选择**创建文档**；
-   
+1. 登录EnOS控制台，选择 **API管理 > API文档**。
+
+2. 点击 **新建**，根据情况选择 **创建文档** 或 **导入文档**，本文以创建文档为例，选择 **创建文档**。
+
 3. 填写 **名称** 为“SwaggerPetStore”和 **描述** 为“A sample API”。
     .. image:: media/api_spec_create.png
 
-4. 在API文档编辑器中复制[editor.swagger.io](https://editor.swagger.io/)中的代码，点击 **保存**
+4. 在API文档编辑器中复制[editor.swagger.io](https://editor.swagger.io/)中的代码，点击 **保存**。
 
 
 ## 步骤2：部署API
 通过上一步骤，你新建了一个名称为“SwaggerPetStore”的API。本步骤将通过新建的API，快速生成API代理。
-1. 选择 **API管理 > API文档**
-2. 在刚创建的SwaggerPetStore一栏，点击 **生成代理** 按钮
-3. 在新API代理详情页，在 **后台服务器URL** 一栏填入“http://petstore.swagger.io”, **超时** 一栏中填入10；
+1. 选择 **API管理 > API文档**。
+2. 在刚创建的SwaggerPetStore一栏，点击 **生成代理** 按钮。
+3. 在新API代理详情页，在 **后台服务器URL** 一栏填入“http://petstore.swagger.io”， **超时** 一栏中填入10。
+
     .. image:: media/api_proxy_new_petstore.png
-4. 点击 **保存** ,保存生成的API代理，此时API已经部署到了EnOS;
-   
+
+4. 点击 **保存**，保存生成的API代理，此时API已经部署到了EnOS。
+
 
 ## 步骤3：测试API代理
 1. 部署好API后，选择 **API管理 > API代理** ，查看新建的SwaggerPetStore，在详情页复制**URL**中的URL地址；
@@ -101,4 +103,3 @@ API消费者需要将应用注册在EnOS的某个OU内，然后向API生产者�
 ## 步骤4：通过HTTP客户端消费API
 
 API消费者可以手动封装HTTP请求，参见[调用 EnOS REST API](https://www.envisioniot.com/docs/app-development/zh_CN/latest/call_enos_api)。
-
